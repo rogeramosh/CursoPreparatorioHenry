@@ -28,4 +28,9 @@ function negacion(permiso){
 }
 negacion(false);
 
+//FUNCIÓN COMPLEJA
+function condicionCompleja(num){
+    if(num >9 && num % 2 === 0 || num ===3) console.log(true); else console.log(false);
+}
 
+condicionCompleja(8)
