@@ -14,3 +14,10 @@ for(var i=0;i<= 10; i++){
 
 // While
 
+var suma=0;
+var datos= 0
+ while(suma<20){
+    suma= suma+ 1
+    datos = datos + 6
+    console.log("valor datos en while: "+datos)
+ }

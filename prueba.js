@@ -1,7 +1,10 @@
-function esPar(num) {
-    // Retorna true si "num" es par.
+function esEntero(num) {
+    // Retornar true si "num" es un entero, ya sea positivo, negativo o cero.
+    // Ejemplo: 0.8   ---> false
+    // Ejemplo: 1     ---> true
+    // Ejemplo: (-10) ---> true
     // De lo contrario, retorna false.
     // Tu código:
-    return(num % 2 == 0);
+    if (num === Math.floor(num)) return true; else return false;
  }
- esPar(50)
+ esEntero(3.234)
